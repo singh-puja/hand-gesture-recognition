@@ -1,5 +1,16 @@
 # hand-gesture-recognition
-Python implementation of controlling vlc media player through hand gesture recognition using depth camera
+Python implementation of controlling vlc media player through hand gesture recognition using depth camera.
+Gestures used are:
+Clap: Toggle
+Rotate anticlock: Previous
+Rotate Clock: Next
+Palm: Quit
+Both hands up: Volume increase
+Boht hands down: Volume decrease
+
+Average accuracy of 95.83% is achieved in case of depth images.
+Average accuracy of 70.83% is achieved in case of only RGB images.
+
 
 * Running the Project:
 ----------------------
